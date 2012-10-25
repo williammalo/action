@@ -1,7 +1,7 @@
 .contact .content{padding:2%;text-align:center;}
 .contact .content address,.contact .content #map,.contact .content .detail,.contact .content form,.contact .content input[type=submit]{box-shadow:0 0 5px rgba(0,0,0,0.2)}
 .contact .content address,.contact .content .detail,.contact .content form,.contact .content #map{display:inline-block;vertical-align:middle}
-.contact .content address,.contact .content .detail,.contact .content form{padding:30px;background:url("bgw");}
+.contact .content address,.contact .content .detail,.contact .content form{padding:30px;background:url("bgw.gif");}
 @media retina{.contact .content address,.contact .content .detail,.contact .content form{background-size:61px 61px}
 }.contact .content address,.contact .content #map{width:42%;margin-bottom:2%;}
 @media screen and (max-width:850px){.contact .content address,.contact .content #map{width:98%;margin-left:0;margin-right:0}
