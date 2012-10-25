@@ -13,7 +13,18 @@ document.body.appendChild(e);
  if(window.XDomainRequest)x=new window.XDomainRequest;
  x.open("GET",file,false);
  x.send();
- x=x.responseXML.documentElement.getElementsByTagName("entry");
+ x=x.responseText
+ if (window.DOMParser){
+ parser=new DOMParser();
+ x=parser.parseFromString(x,"text/xml");
+ }
+ else{
+ var xmlDoc;
+ xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
+ xmlDoc.async=false;
+ x=xmlDoc.loadXML(x); 
+ }
+ x=x.documentElement.getElementsByTagName("entry");
  
  tmpl=function(){return template.replace(/\{\{([^{}]+)}}/g,function(b,c,d){
   d=x[i].getElementsByTagName(c)[0].firstChild;
