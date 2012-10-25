@@ -22,7 +22,8 @@ document.body.appendChild(e);
  var xmlDoc;
  xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
  xmlDoc.async=false;
- x=xmlDoc.loadXML(x); 
+ xmlDoc.loadXML(x); 
+ x=xmlDoc;
  }
  x=x.getElementsByTagName("entry");
  
