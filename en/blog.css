@@ -1,8 +1,0 @@
-.usage .content{padding:2%;background:#fff url("bgw.gif");text-align:center;}
-@media only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2){.usage .content{-webkit-background-size:61px 61px;-moz-background-size:61px 61px;background-size:61px 61px}
-}.usage .content article{vertical-align:top;background:#fff;-webkit-box-shadow:0 0 10px rgba(0,0,0,0.2);box-shadow:0 0 10px rgba(0,0,0,0.2);padding:30px;max-width:460px;display:inline-block;text-align:left;margin:15px}
-.usage .content img{max-width:80% !important;max-height:200px !important;width:auto !important;height:auto !important;margin:10px !important;text-align:center !important;float:none !important}
-.usage .content a{float:none !important;clear:none !important;display:inline !important}
-.usage .content article div,.usage .content article span,.usage .content article li{font-size:16px !important}
-.usage .content article img{-webkit-box-shadow:0 0 10px rgba(0,0,0,0.2);box-shadow:0 0 10px rgba(0,0,0,0.2)}
-.usage .content time{font-weight:normal;font-size:14px;color:#aaa;padding-bottom:60px;margin-bottom:50px;background:url("img/log.png") 20px -20px no-repeat;display:block}
