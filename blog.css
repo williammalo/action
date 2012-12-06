@@ -6,3 +6,6 @@
 .usage .content article div,.usage .content article span,.usage .content article li{font-size:16px !important}
 .usage .content article img{-webkit-box-shadow:0 0 10px rgba(0,0,0,0.2);box-shadow:0 0 10px rgba(0,0,0,0.2)}
 .usage .content time{font-weight:normal;font-size:14px;color:#aaa;padding-bottom:60px;margin-bottom:50px;background:url("img/log.png") 20px -20px no-repeat;display:block}
+.usage .content .sig{text-align:right !important;float:right !important;padding-top:7px !important;}
+@media (max-width:500px){.usage .content .sig{display:none !important}
+}
