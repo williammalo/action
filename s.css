@@ -1,5 +1,5 @@
 *{margin:0;padding:0;position:relative;text-rendering:optimizeLegibility;line-height:1.62em;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
-body{font:17px "Helvetica Neue",Helvetica,Arial,sans-serif;background:url("bannersides.jpg") center -11px repeat-x;color:#333;color:rgba(0,0,0,0.8);font-weight:200;margin:0 !important;overflow:hidden}
+body{font:17px "Helvetica Neue",Helvetica,Arial,sans-serif;background:url("bannersides.jpg") center -11px repeat-x;color:#333;color:rgba(0,0,0,0.8);font-weight:200;margin:0 !important;width:100%;overflow:hidden}
 p+p{margin-top:1.62em}
 ul{margin:1em}
 a{text-decoration:none;color:#0073d1}
