@@ -12,13 +12,13 @@ input[type=text],textarea{padding:.3em;margin:.3em;border:none;background:#fff;b
 nav,nav>a,input[type=submit],.button{background:#4074aa;background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #4480b5), color-stop(0.5, #4480b5), color-stop(0.51, #4074aa), color-stop(1, #4074aa));background:-webkit-linear-gradient(top, #4480b5 0%, #4480b5 50%, #4074aa 51%, #4074aa 100%);background:-moz-linear-gradient(top, #4480b5 0%, #4480b5 50%, #4074aa 51%, #4074aa 100%);background:-o-linear-gradient(top, #4480b5 0%, #4480b5 50%, #4074aa 51%, #4074aa 100%);background:-ms-linear-gradient(top, #4480b5 0%, #4480b5 50%, #4074aa 51%, #4074aa 100%);background:linear-gradient(top, #4480b5 0%, #4480b5 50%, #4074aa 51%, #4074aa 100%);border:none;border-top:solid 1px #5084ba;border-bottom:solid 1px #30649a}
 nav>a,input[type=submit],.button{display:inline-block;padding:.62em 1.62em;color:#fff;text-decoration:none;}
 nav>a:hover,input[type=submit]:hover,.button:hover{text-shadow:0 0 10px rgba(255,255,255,0.5)}
-header{height:210px;background:url("http://farm9.staticflickr.com/8515/8475313086_439dda77c3_o.jpg") center -11px no-repeat;margin:0;overflow:hidden;}
-header:before{content:"";background:url("http://farm9.staticflickr.com/8372/8475313082_ffa8f1ee3a_o.jpg") center -11px repeat-x;display:block;position:absolute;top:0;left:0;bottom:0;right:0;z-index:-1000}
-header h1{width:250px;height:160px;background:#fff url("img/log.png") center no-repeat;border-top-left-radius:10px;border-bottom-left-radius:10px;-webkit-box-shadow:0 0 5px rgba(0,0,0,0.3);box-shadow:0 0 5px rgba(0,0,0,0.3);position:absolute;top:25px;right:0;border-bottom:solid 1px #ddd;color:transparent;}
+header{height:196px;background:url("http://farm9.staticflickr.com/8515/8475313086_439dda77c3_o.jpg") center -16px no-repeat;margin:0;overflow:hidden;}
+header:before{content:"";background:url("http://farm9.staticflickr.com/8372/8475313082_ffa8f1ee3a_o.jpg") center -16px repeat-x;display:block;position:absolute;top:0;left:0;bottom:0;right:0;z-index:-1000}
+header h1{width:220px;height:146px;background:#fff url("img/log.png") center no-repeat;border-top-left-radius:10px;border-bottom-left-radius:10px;-webkit-box-shadow:0 0 5px rgba(0,0,0,0.3);box-shadow:0 0 5px rgba(0,0,0,0.3);position:absolute;top:25px;right:0;border-bottom:solid 1px #ddd;color:transparent;}
 @media (-o-min-device-pixel-ratio: 5/4),(-webkit-min-device-pixel-ratio: 1.25),(min-resolution: 120dpi){header h1{background-image:url("img/log.svg")}
 }@media screen and (max-width:400px){header h1{width:130px;height:80px;-webkit-background-size:100%;-moz-background-size:100%;background-size:100%}
 }@media screen and (max-width:400px){header{height:130px;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;background-position:top}
-}header #slogan{position:absolute;color:#fff;font-size:1.7em;text-align:right;top:15px;right:260px;text-shadow:0 0 4px rgba(0,0,0,0.3);font-weight:normal;}
+}header #slogan{position:absolute;color:#fff;font-size:1.7em;text-align:right;top:25px;margin-top:-.6em;right:240px;text-shadow:0 0 4px rgba(0,0,0,0.3);font-weight:normal;}
 @media screen and (max-width:1160px){header #slogan{font-size:1.2em;color:#000}
 }@media screen and (max-width:850px){header #slogan{display:none}
 }header #mobile{position:absolute;top:260px;right:20px;padding:10px 23px 8px 40px;display:none;border-bottom-left-radius:10px;border-bottom-right-radius:10px;-webkit-box-shadow:0 0 5px rgba(0,0,0,0.3);box-shadow:0 0 5px rgba(0,0,0,0.3);z-index:1;}
@@ -60,10 +60,10 @@ footer .copy{font-size:.62em}
 }.index .content #face:after{content:"";position:absolute;top:-24px;left:-24px;width:54px;height:54px;background:url("img/fi.png") center no-repeat}
 @media screen and (max-width:1150px){.index .content{padding:2em}
 }.neuf .content{background:#fff url("http://farm9.staticflickr.com/8103/8475314284_506f33c38a_o.jpg") bottom center no-repeat;padding-bottom:120px;}
-.neuf .content h1{text-align:center;margin:0;padding:.62em 0}
-.neuf .content>div{-webkit-box-shadow:0 0 5px rgba(0,0,0,0.2);box-shadow:0 0 5px rgba(0,0,0,0.2);background:#ddd url("bg.gif");display:inline-block;vertical-align:top;width:22.5%;padding:2em;margin:0 0 0 2%;text-shadow:0 1px 0 rgba(255,255,255,0.5);}
-@media screen and (max-width:1150px){.neuf .content>div{width:44%;margin:0 0 4% 4%}
-}@media screen and (max-width:600px){.neuf .content>div{width:96%;margin:0 0 2% 2%}
+.neuf .content h1{text-align:center;margin-top:2%;display:none}
+.neuf .content>div{-webkit-box-shadow:0 0 5px rgba(0,0,0,0.2);box-shadow:0 0 5px rgba(0,0,0,0.2);background:#ddd url("bg.gif");display:inline-block;vertical-align:top;width:22.5%;padding:2em;margin:2% 0 0 2%;text-shadow:0 1px 0 rgba(255,255,255,0.5);}
+@media screen and (max-width:1150px){.neuf .content>div{width:47%}
+}@media screen and (max-width:600px){.neuf .content>div{width:96%;margin:2% 0 2% 2%}
 }@media (-o-min-device-pixel-ratio: 5/4),(-webkit-min-device-pixel-ratio: 1.25),(min-resolution: 120dpi){.neuf .content>div{-webkit-background-size:61px 61px;-moz-background-size:61px 61px;background-size:61px 61px}
 }.neuf .content>div h3{background:center top no-repeat;margin:0;padding-top:170px}
 .contact .content{padding:2em;padding-bottom:0;text-align:center;}
@@ -73,7 +73,7 @@ footer .copy{font-size:.62em}
 @media (-o-min-device-pixel-ratio: 5/4),(-webkit-min-device-pixel-ratio: 1.25),(min-resolution: 120dpi){.contact .content>address,.contact .content .detail,.contact .content form{-webkit-background-size:61px 61px;-moz-background-size:61px 61px;background-size:61px 61px}
 }.contact .content>address,.contact .content #map{width:42%;}
 @media screen and (max-width:850px){.contact .content>address,.contact .content #map{width:98%;margin-left:0;margin-right:0}
-}.contact .content>address{margin-right:1em;white-space:pre-wrap}
+}.contact .content>address{margin-right:1em;line-height:2em}
 .contact .content #map{height:380px;margin-left:1em;background:#eee;}
 .contact .content #map iframe{height:100%;width:100%;border:none;top:0;left:0}
 .contact .content .detail{margin-left:auto;margin-right:auto;width:90%;max-width:1100px;line-height:2em;}
