@@ -47,7 +47,7 @@ footer .copy{font-size:.62em}
 }@media (max-width:900px){.textps .content #textbox{width:100%;height:auto;min-height:none}
 .textps .content .ibox{width:0;height:0}
 .textps .content{height:auto}
-}@media (max-width:400px){.textps .content #textbox{padding:2em}
+}@media (max-width:500px){.textps .content #textbox{padding:2em}
 }.index #mobile{display:block}
 .index .content{padding:2em 2em 130px 2em;background:url("http://farm9.staticflickr.com/8103/8475314284_506f33c38a_o.jpg") bottom center no-repeat;}
 .index .content #face,.index .content>article{display:inline-block;vertical-align:top;padding:2em}
