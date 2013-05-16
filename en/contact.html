@@ -23,7 +23,17 @@ _gaq.push(['_trackPageview']);
 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();</script><script>document.getElementById("message").value=localStorage.getItem("message")||""
+})();
+
+var nav=document.getElementsByTagName("nav")[0];
+
+onscroll=function(){
+ if(document.body.scrollTop>196||document.documentElement.scrollTop>196){
+  nav.className="fixed"
+ }else{
+  nav.className=""
+ }
+}</script><script>document.getElementById("message").value=localStorage.getItem("message")||""
 document.getElementById("mail").value=localStorage.getItem("mail")||""
 document.getElementById("subject").value=localStorage.getItem("subject")||""
 document.getElementById("message").oninput=function(){localStorage.setItem("message",document.getElementById("message").value)}

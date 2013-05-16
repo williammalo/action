@@ -18,7 +18,17 @@ _gaq.push(['_trackPageview']);
 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();</script><script>var el=document.querySelectorAll(".content div");
+})();
+
+var nav=document.getElementsByTagName("nav")[0];
+
+onscroll=function(){
+ if(document.body.scrollTop>196||document.documentElement.scrollTop>196){
+  nav.className="fixed"
+ }else{
+  nav.className=""
+ }
+}</script><script>var el=document.querySelectorAll(".content div");
 onload=onresize=function(){
 var mh=0;
 for(var z=el.length;z--;){el[z].style.height="auto"}

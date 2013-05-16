@@ -19,3 +19,13 @@ script
 	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	})();
+
+	var nav=document.getElementsByTagName("nav")[0];
+
+	onscroll=function(){
+		if(document.body.scrollTop>196||document.documentElement.scrollTop>196){
+			nav.className="fixed"
+		}else{
+			nav.className=""
+		}
+	}
