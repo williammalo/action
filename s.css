@@ -93,10 +93,10 @@ footer .copy{font-size:.62em}
 .contact .content .detail .otherc a{margin-left:1em}
 .usage .content{padding:1em;background:#fff url("bgw.gif");text-align:center;}
 @media only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2){.usage .content{-webkit-background-size:61px 61px;-moz-background-size:61px 61px;background-size:61px 61px}
-}.usage .content article{vertical-align:top;background:#fff;border:solid 1px #eee;-webkit-border-radius:2px;border-radius:2px;-webkit-box-shadow:0 0 5px rgba(0,0,0,0.1);box-shadow:0 0 5px rgba(0,0,0,0.1);padding:2em;max-width:460px;display:inline-block;text-align:left;margin:1em;}
+}.usage .content article{vertical-align:top;background:#fff;border:solid 1px #eee;-webkit-box-shadow:0 0 5px rgba(0,0,0,0.1);box-shadow:0 0 5px rgba(0,0,0,0.1);padding:2em;max-width:460px;display:inline-block;text-align:left;margin:1em;}
 .usage .content article img{max-height:200px;margin:10px;text-align:center;-webkit-box-shadow:0 0 5px rgba(0,0,0,0.3);box-shadow:0 0 5px rgba(0,0,0,0.3)}
-.usage .content time{font-weight:normal;font-size:.62em;color:#aaa;padding-bottom:70px;margin-bottom:50px;background:url("img/log.png") 20px -15px no-repeat;display:block}
-.usage .content .sig{text-align:right;float:right;}
+.usage .content time{font-weight:normal;font-size:.62em;color:#aaa;display:block}
+.usage .content .sig{text-align:right;height:9.5em;display:block;background:url("img/log.png") -23px -3px no-repeat;}
 @media (max-width:500px){.usage .content .sig{display:none !important}
 }@media (max-width:400px){body{font-size:14px}
 }footer a:first-child{-webkit-border-radius:1em 0 0 1em;border-radius:1em 0 0 1em}
