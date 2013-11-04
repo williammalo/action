@@ -96,7 +96,7 @@ footer .copy{font-size:.62em}
 }.usage .content article{vertical-align:top;background:#fff;border:solid 1px #eee;-webkit-box-shadow:0 0 5px rgba(0,0,0,0.1);box-shadow:0 0 5px rgba(0,0,0,0.1);padding:2em;max-width:460px;display:inline-block;text-align:left;margin:1em;}
 .usage .content article img{max-height:200px;margin:10px;text-align:center;-webkit-box-shadow:0 0 5px rgba(0,0,0,0.3);box-shadow:0 0 5px rgba(0,0,0,0.3)}
 .usage .content time{font-weight:normal;font-size:.62em;color:#aaa;display:block}
-.usage .content .sig{text-align:right;height:9.5em;display:block;background:url("img/log.png") -23px -3px no-repeat;}
+.usage .content .sig{text-align:right;height:10.5em;display:block;background:url("img/log.png") -23px -3px no-repeat;}
 @media (max-width:500px){.usage .content .sig{display:none !important}
 }@media (max-width:400px){body{font-size:14px}
 }footer a:first-child{-webkit-border-radius:1em 0 0 1em;border-radius:1em 0 0 1em}
