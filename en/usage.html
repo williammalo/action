@@ -45,7 +45,7 @@ document.body.appendChild(e);
 (function(){
 var sig="<div style='position:relative;margin-bottom:50px'><img src='img/log.png' style='position:absolute;top:0;left:-10px;box-shadow:none'><div style='text-align:right'><br><br>Action Utility Quebec Inc.<br>1100 rue Courval<br>Lachine, Qc.<br>H8T 3P5<br>Phone: (514) 633-5377<br>Fax: (514) 633-6488</div></div>"
 var newsig="<div class='sig' >Action Utility Quebec Inc.<br>1100 rue Courval<br>Lachine, Qc.<br>H8T 3P5<br>Phone: (514) 633-5377<br>Fax: (514) 633-6488</div>"
-document.getElementById("blog").innerHTML = printRss("http://api.maloweb.com/rss.xml","<article>"+newsig+"<h3>{{title}}<br><time>{{updated}}</time></h3><div class=blog-content>{{description}}</div></article>");
+document.getElementById("blog").innerHTML = printRss("http://api.maloweb.com/rss.php","<article>"+newsig+"<h3>{{title}}<br><time>{{updated}}</time></h3><div class=blog-content>{{description}}</div></article>");
 })()
 </script><footer><nav><a href="en">Home</a><a href="en/neuf">New</a><a href="en/usage">Used</a><a href="en/location">Rental</a><a href="en/pieces">Parts</a><a href="en/service">Service</a><a href="en/contact" class="half">Contact</a><a href="." class="half">Français</a></nav><div class="copy">Copyright <script>document.write((new Date).getFullYear())</script> Action utility</div></footer><script>var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-37761254-2']);
