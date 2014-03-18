@@ -36,12 +36,11 @@ footer{text-align:center;width:100%;z-index:10;overflow:hidden;margin:0;}
 footer .copy{font-size:.62em}
 .textps .content{white-space:nowrap;overflow:hidden;line-height:0;}
 .textps .content #textbox,.textps .content .ibox{display:inline-block;height:768px;vertical-align:top}
-.textps .content #textbox{background:url("bgw.gif");width:60%;padding:4em;border-left:solid 1px #999;border-right:solid 1px #999;}
-@media (-o-min-device-pixel-ratio: 5/4),(-webkit-min-device-pixel-ratio: 1.25),(min-resolution: 120dpi){.textps .content #textbox{-webkit-background-size:61px 61px;-moz-background-size:61px 61px;background-size:61px 61px}
-}.textps .content #textbox article{white-space:normal;line-height:2em}
+.textps .content #textbox{width:60%;padding:4em;border-left:solid 1px #999;border-right:solid 1px #999;}
+.textps .content #textbox article{white-space:normal;line-height:2em}
 .textps .content #textbox h1{margin-bottom:.5em;text-shadow:0 1px 0 #fff}
 .textps .content .ibox{width:20%;max-width:576px}
-@media (max-width:1100px){.textps .content #textbox{width:70%}
+@media (max-width:1000px){.textps .content #textbox{width:70%}
 .textps .content .ibox{width:15%}
 }@media (max-width:900px){.textps .content #textbox{width:100%;height:auto;min-height:none}
 .textps .content .ibox{width:0;height:0}
@@ -83,9 +82,9 @@ footer .copy{font-size:.62em}
 }.contact .content .detail p{margin:0}
 .contact .content .detail address{padding:1em 0;font-style:normal}
 .contact .content .detail .otherc a{margin-left:1em}
-.usage .content{padding:1em;background:#fff;text-align:center;}
+.usage .content{padding:1em;text-align:center;}
 .usage .content article{vertical-align:top;max-width:460px;display:inline-block;text-align:left;margin:1em;}
-.usage .content article img{max-height:200px;margin:10px;text-align:center;-webkit-box-shadow:0 0 5px rgba(0,0,0,0.2);box-shadow:0 0 5px rgba(0,0,0,0.2)}
+.usage .content article img{max-height:200px;margin:10px;text-align:center;-webkit-box-shadow:0 0 5px rgba(0,0,0,0.15);box-shadow:0 0 5px rgba(0,0,0,0.15)}
 .usage .content time{font-weight:normal;font-size:.62em;color:#aaa;display:block}
 .usage .content .sig{text-align:right;height:10.5em;display:block;background:url("img/log.png") -23px -3px no-repeat;}
 @media only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2){.usage .content .sig{background-image:url("img/log.svg")}
