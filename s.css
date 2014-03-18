@@ -42,7 +42,7 @@ footer .copy{font-size:.62em}
 .textps .content .ibox{width:20%;max-width:576px}
 @media (max-width:1000px){.textps .content #textbox{width:70%}
 .textps .content .ibox{width:15%}
-}@media (max-width:900px){.textps .content #textbox{width:100%;height:auto;min-height:none}
+}@media (max-width:850px){.textps .content #textbox{width:100%;height:auto;min-height:none}
 .textps .content .ibox{width:0;height:0}
 .textps .content{height:auto}
 }@media (max-width:500px){.textps .content #textbox{padding:2em}
