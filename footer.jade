@@ -20,9 +20,15 @@ script.
 
 	var foo=function(){
 		if(document.body.scrollTop>196||document.documentElement.scrollTop>196){
-			nav.className="fixed"
+			if(bla!="fixed"){
+				nav.className="fixed"
+				bla="fixed"
+			}
 		}else{
-			nav.className=""
+			if(bla!=""){
+				nav.className=""
+				bla=""
+			}
 		}
 	};
 

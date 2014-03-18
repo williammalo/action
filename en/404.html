@@ -26,12 +26,19 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 var nav=document.getElementsByTagName("nav")[0];
 var header=document.getElementsByTagName("header")[0];
+var bla="";
 
 var foo=function(){
  if(document.body.scrollTop>196||document.documentElement.scrollTop>196){
-  nav.className="fixed"
+  if(bla!="fixed"){
+   nav.className="fixed"
+   bla="fixed"
+  }
  }else{
-  nav.className=""
+  if(bla!=""){
+   nav.className=""
+   bla=""
+  }
  }
 };
 
