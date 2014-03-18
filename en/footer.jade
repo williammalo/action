@@ -16,6 +16,7 @@ script.
 	})();
 
 	var nav=document.getElementsByTagName("nav")[0];
+	var header=document.getElementsByTagName("header")[0];
 
 	var foo=function(){
 		if(document.body.scrollTop>196||document.documentElement.scrollTop>196){
@@ -25,7 +26,13 @@ script.
 		}
 	};
 
-
+	if(Modernizr.csspositionsticky){
+		foo=function(){};
+		nav.style.position="-webkit-sticky"
+		nav.style.top="144px"
+		header.style.marginBottom="0"
+		onresize=function(){}
+	};
 
 	foo();
 	onscroll=foo;
