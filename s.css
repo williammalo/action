@@ -94,7 +94,7 @@ footer .copy{font-size:.62em}
 .spacingbox{display:inline-block;vertical-align:top;width:100%;padding-left:1em;padding-right:1em}
 .spacingbox50{display:inline-block;vertical-align:top;padding-left:1em;padding-right:1em;width:50%;}
 @media screen and (max-width:800px){.spacingbox50{width:100%}
-}.spacingbox33-wide{display:inline-block;vertical-align:top;padding-left:2em;padding-right:2em;width:33.333%}
+}.spacingbox33-wide{display:inline-block;vertical-align:top;padding:2em;width:33.333%}
 .spacingbox25{display:inline-block;vertical-align:top;padding-left:1em;padding-right:1em;width:25%;}
 @media screen and (max-width:1150px){.spacingbox25{width:50%}
 }@media screen and (max-width:600px){.spacingbox25{width:100%}
