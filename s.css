@@ -60,10 +60,7 @@ footer .copy{font-size:.62em}
 @media screen and (max-width:1150px){.index .content{padding:2em}
 }.neuf .content{background:#fff url("http://farm9.staticflickr.com/8103/8475314284_506f33c38a_o.jpg") bottom center no-repeat;padding-bottom:120px;}
 .neuf .content h1{text-align:center;margin-top:2%;display:none}
-.neuf .content>div{display:inline-block;vertical-align:top;width:22.5%;margin:2% 0 0 2%;}
-@media screen and (max-width:1150px){.neuf .content>div{width:47%}
-}@media screen and (max-width:600px){.neuf .content>div{width:96%;margin:2% 0 2% 2%}
-}.neuf .content>div h3{background:center top no-repeat;margin:0;padding-top:170px}
+.neuf .content h3{background:center top no-repeat;margin:0;padding-top:170px}
 .contact .content{padding-top:2em;padding-left:1em;padding-right:1em;padding-bottom:0;text-align:center;}
 .contact .content address,.contact .content .detail,.contact .content form,.contact .content #map{display:inline-block;vertical-align:middle;margin-bottom:2em}
 .contact .content address,.contact .content .detail,.contact .content form{text-align:left}
@@ -96,4 +93,7 @@ footer .copy{font-size:.62em}
 .spacingbox{display:inline-block;vertical-align:top;width:100%;padding-left:1em;padding-right:1em}
 .spacingbox50{display:inline-block;vertical-align:top;padding-left:1em;padding-right:1em;width:50%;}
 @media screen and (max-width:800px){.spacingbox50{width:100%}
+}.spacingbox25{display:inline-block;vertical-align:top;padding-left:1em;padding-right:1em;width:25%;}
+@media screen and (max-width:1150px){.spacingbox25{width:50%}
+}@media screen and (max-width:600px){.spacingbox25{width:100%}
 }
