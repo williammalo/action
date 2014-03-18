@@ -4,5 +4,6 @@
 }.usage .content article img{max-height:200px;margin:10px;text-align:center;-webkit-box-shadow:0 0 5px rgba(0,0,0,0.3);box-shadow:0 0 5px rgba(0,0,0,0.3)}
 .usage .content time{font-weight:normal;font-size:.62em;color:#aaa;display:block}
 .usage .content .sig{text-align:right;height:10.5em;display:block;background:url("img/log.png") -23px -3px no-repeat;}
-@media (max-width:500px){.usage .content .sig{display:none !important}
+@media only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2){.usage .content .sig{background-image:url("img/log.svg")}
+}@media (max-width:500px){.usage .content .sig{display:none !important}
 }
