@@ -95,3 +95,4 @@ footer .copy{font-size:.62em}
 }.box{-webkit-box-shadow:0 0 5px rgba(0,0,0,0.15);box-shadow:0 0 5px rgba(0,0,0,0.15);background:#fff url("bgw.gif");padding:2em;}
 @media only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2){.box{-webkit-background-size:61px 61px !important;-moz-background-size:61px 61px !important;background-size:61px 61px !important}
 }.graybox{background:#ddd url("bg.gif");text-shadow:0 1px 1px rgba(255,255,255,0.5)}
+.spacingbox{padding-left:1em;padding-right:1em}
