@@ -63,7 +63,7 @@ footer .copy{font-size:.62em}
 @media screen and (max-width:1150px){.index .content{padding:2em}
 }.neuf .content{background:#fff url("http://farm9.staticflickr.com/8103/8475314284_506f33c38a_o.jpg") bottom center no-repeat;padding-bottom:120px;}
 .neuf .content h1{text-align:center;margin-top:2%;display:none}
-.neuf .content>div{-webkit-box-shadow:0 0 5px rgba(0,0,0,0.2);box-shadow:0 0 5px rgba(0,0,0,0.2);background:#ddd url("bg.gif");display:inline-block;vertical-align:top;width:22.5%;padding:2em;margin:2% 0 0 2%;text-shadow:0 1px 0 rgba(255,255,255,0.5);}
+.neuf .content>div{-webkit-box-shadow:0 0 5px rgba(0,0,0,0.2);box-shadow:0 0 5px rgba(0,0,0,0.2);background:#ddd url("bg.gif");display:inline-block;vertical-align:top;width:22.5%;padding:2em;margin:2% 0 0 2%;text-shadow:0 1px 1px rgba(255,255,255,0.5);}
 @media screen and (max-width:1150px){.neuf .content>div{width:47%}
 }@media screen and (max-width:600px){.neuf .content>div{width:96%;margin:2% 0 2% 2%}
 }@media (-o-min-device-pixel-ratio: 5/4),(-webkit-min-device-pixel-ratio: 1.25),(min-resolution: 120dpi){.neuf .content>div{-webkit-background-size:61px 61px;-moz-background-size:61px 61px;background-size:61px 61px}
