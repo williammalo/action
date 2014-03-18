@@ -13,7 +13,8 @@ nav,nav>a,input[type=submit],.button{background:#4074aa;background:-webkit-gradi
 nav>a,input[type=submit],.button{display:inline-block;padding:.62em 1.62em;color:#fff;text-decoration:none;}
 nav>a:hover,input[type=submit]:hover,.button:hover{text-shadow:0 0 10px rgba(255,255,255,0.5)}
 header{height:196px;background:url("http://farm9.staticflickr.com/8515/8475313086_439dda77c3_o.jpg") center -16px no-repeat;background:url("http://farm9.staticflickr.com/8515/8475313086_439dda77c3_o.jpg") center -16px no-repeat,url("http://farm9.staticflickr.com/8372/8475313082_ffa8f1ee3a_o.jpg") center -16px repeat-x;margin:0;overflow:hidden;margin-bottom:52px;}
-@media screen and (max-width:900px){header{margin-bottom:104px}
+@media screen and (max-width:900px){header{margin-bottom:100px}
+}@media screen and (max-width:500px){header{margin-bottom:104px}
 }header h1{width:220px;height:146px;background:#fff url("img/log.png") center no-repeat;border-top-left-radius:10px;border-bottom-left-radius:10px;-webkit-box-shadow:0 0 5px rgba(0,0,0,0.15);box-shadow:0 0 5px rgba(0,0,0,0.15);position:absolute;top:25px;right:0;border-bottom:solid 1px #ddd;color:transparent;}
 @media (-o-min-device-pixel-ratio: 5/4),(-webkit-min-device-pixel-ratio: 1.25),(min-resolution: 120dpi){header h1{background-image:url("img/log.svg")}
 }@media screen and (max-width:400px){header h1{width:130px;height:80px;-webkit-background-size:100%;-moz-background-size:100%;background-size:100%}
