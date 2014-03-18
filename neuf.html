@@ -52,7 +52,7 @@ FastClick.notNeeded=function(a){var c,b;if("undefined"===typeof window.ontouchst
 onload=function(){FastClick.attach(document.body)};</script><script>var el=document.querySelectorAll(".content>div");
 onload=onresize=function(){
 var mh=0;
-for(var z=el.length;z--;){el[z].style.height="auto"}
+for(var z=el.length;z--;){el[z].style.height="auto";el[z].firstChild.style.height="auto"}
 for(var i=el.length;i--;){if(el[i].offsetHeight>mh)mh=el[i].offsetHeight};
-for(var z=el.length;z--;){el[z].style.height=mh+"px"}
+for(var z=el.length;z--;){el[z].style.height=mh+"px";el[z].firstChild.style.height="100%"}
 }</script>
