@@ -64,14 +64,14 @@ footer .copy{font-size:.62em}
 @media screen and (max-width:1150px){.neuf .content>div{width:47%}
 }@media screen and (max-width:600px){.neuf .content>div{width:96%;margin:2% 0 2% 2%}
 }.neuf .content>div h3{background:center top no-repeat;margin:0;padding-top:170px}
-.contact .content{padding:2em;padding-bottom:0;text-align:center;}
-.contact .content>address,.contact .content .detail,.contact .content form,.contact .content #map{display:inline-block;vertical-align:middle;margin-bottom:2em}
-.contact .content>address,.contact .content .detail,.contact .content form{text-align:left}
-.contact .content>address{margin-right:1em;line-height:2em}
-.contact .content #map{height:340px;margin-left:1em;padding:0;backgound:none;}
+.contact .content{padding-top:2em;padding-left:1em;padding-right:1em;padding-bottom:0;text-align:center;}
+.contact .content address,.contact .content .detail,.contact .content form,.contact .content #map{display:inline-block;vertical-align:middle;margin-bottom:2em}
+.contact .content address,.contact .content .detail,.contact .content form{text-align:left}
+.contact .content address{line-height:2em;width:100%}
+.contact .content #map{height:340px;padding:0;backgound:none;width:100%;}
 .contact .content #map iframe{height:100%;width:100%;border:none;top:0;left:0}
-.contact .content>address,.contact .content #map{width:47%;}
-@media screen and (max-width:800px){.contact .content>address,.contact .content #map{width:100%;margin-left:0;margin-right:0}
+.contact .content .spacingbox50{width:50%;}
+@media screen and (max-width:800px){.contact .content .spacingbox50{width:100%}
 }.contact .content .detail{margin-left:auto;margin-right:auto;width:90%;max-width:1100px;line-height:2em;}
 .contact .content .detail h3{padding:1em 0}
 @media screen and (max-width:970px){.contact .content .detail{width:100%}
