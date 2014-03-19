@@ -1,6 +1,7 @@
 *{margin:0;padding:0;position:relative;text-rendering:optimizeLegibility;line-height:1.62em;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
-html,input{font:17px "Helvetica Neue",Helvetica,Arial,sans-serif;color:#333;color:rgba(0,0,0,0.8);font-weight:200}
-p+p{margin-top:1.62em}
+html,input{font:17px "Helvetica Neue",Helvetica,Arial,sans-serif;color:#333;color:rgba(0,0,0,0.8);font-weight:200;}
+@media screen and (min-width:1344px){html,input{font-size:1.265vw}
+}p+p{margin-top:1.62em}
 h1{font-size:2.5em}
 ul{margin:1em}
 img{border:none;max-width:100%}
@@ -17,6 +18,7 @@ header{height:196px;background:url("http://farm9.staticflickr.com/8515/847531308
 @media screen and (max-width:900px){header{margin-bottom:100px}
 }@media screen and (max-width:500px){header{margin-bottom:119px}
 }@media screen and (max-width:400px){header{margin-bottom:104px}
+}@media screen and (min-width:1344px){header{margin-bottom:2.8em}
 }header h1{width:220px;height:146px;background:#fff url("img/log25.png") center no-repeat;border-top-left-radius:10px;border-bottom-left-radius:10px;-webkit-box-shadow:0 0 5px rgba(0,0,0,0.15);box-shadow:0 0 5px rgba(0,0,0,0.15);position:absolute;top:25px;right:0;border-bottom:solid 1px #ddd;color:transparent;}
 @media (-o-min-device-pixel-ratio: 5/4),(-webkit-min-device-pixel-ratio: 1.25),(min-resolution: 120dpi){header h1{background-image:url("img/log25.svg")}
 }@media screen and (max-width:400px){header h1{width:130px;height:80px;-webkit-background-size:100%;-moz-background-size:100%;background-size:100%}
