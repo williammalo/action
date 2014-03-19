@@ -17,8 +17,8 @@ header{height:196px;background:url("http://farm9.staticflickr.com/8515/847531308
 @media screen and (max-width:900px){header{margin-bottom:100px}
 }@media screen and (max-width:500px){header{margin-bottom:119px}
 }@media screen and (max-width:400px){header{margin-bottom:104px}
-}header h1{width:220px;height:146px;background:#fff url("img/log.png") center no-repeat;border-top-left-radius:10px;border-bottom-left-radius:10px;-webkit-box-shadow:0 0 5px rgba(0,0,0,0.15);box-shadow:0 0 5px rgba(0,0,0,0.15);position:absolute;top:25px;right:0;border-bottom:solid 1px #ddd;color:transparent;}
-@media (-o-min-device-pixel-ratio: 5/4),(-webkit-min-device-pixel-ratio: 1.25),(min-resolution: 120dpi){header h1{background-image:url("img/log.svg")}
+}header h1{width:220px;height:146px;background:#fff url("img/log25.png") center no-repeat;border-top-left-radius:10px;border-bottom-left-radius:10px;-webkit-box-shadow:0 0 5px rgba(0,0,0,0.15);box-shadow:0 0 5px rgba(0,0,0,0.15);position:absolute;top:25px;right:0;border-bottom:solid 1px #ddd;color:transparent;}
+@media (-o-min-device-pixel-ratio: 5/4),(-webkit-min-device-pixel-ratio: 1.25),(min-resolution: 120dpi){header h1{background-image:url("img/log25.svg")}
 }@media screen and (max-width:400px){header h1{width:130px;height:80px;-webkit-background-size:100%;-moz-background-size:100%;background-size:100%}
 }@media screen and (max-width:400px){header{height:130px;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;background-position:top}
 }header #slogan{position:absolute;color:#fff;font-size:1.7em;text-align:right;top:25px;margin-top:-.6em;right:240px;text-shadow:0 0 4px rgba(0,0,0,0.3);font-weight:normal;}
@@ -84,8 +84,8 @@ footer .copy{font-size:.62em}
 .usage .content article{vertical-align:top;max-width:450px;display:inline-block;text-align:left;margin:1em;}
 .usage .content article img{max-height:200px;margin:0 .5em 0 0;-webkit-box-shadow:0 0 5px rgba(0,0,0,0.15);box-shadow:0 0 5px rgba(0,0,0,0.15)}
 .usage .content time{font-weight:normal;font-size:.62em;color:#aaa;display:block}
-.usage .content .sig{text-align:right;height:10.5em;display:block;background:url("img/log.png") -23px -3px no-repeat;}
-@media only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2){.usage .content .sig{background-image:url("img/log.svg")}
+.usage .content .sig{text-align:right;height:10.5em;display:block;background:url("img/log25.png") -23px -3px no-repeat;}
+@media only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2){.usage .content .sig{background-image:url("img/log25.svg")}
 }@media (max-width:500px){.usage .content .sig{display:none !important}
 }@media (max-width:400px){body{font-size:14px}
 }.box{-webkit-box-shadow:0 0 5px rgba(0,0,0,0.15);box-shadow:0 0 5px rgba(0,0,0,0.15);background:#fff url("bgw.gif");padding:2em;}
