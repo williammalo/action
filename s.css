@@ -62,7 +62,7 @@ footer .copy{font-size:.62em}
 }.index .content #face{min-width:250px;width:100%;}
 .index .content #face:after{content:"";position:absolute;top:-24px;left:-24px;width:54px;height:54px;background:url("img/fi.png") center no-repeat}
 .neuf .content{background:#fff url("http://farm9.staticflickr.com/8103/8475314284_506f33c38a_o.jpg") bottom center no-repeat;padding-bottom:120px;padding:2em 1em;}
-@media screen and (min-width:1920px){.neuf .content{backgound-size:100%;padding-bottom:10%}
+@media screen and (min-width:1920px){.neuf .content{-webkit-background-size:100%;-moz-background-size:100%;background-size:100%;padding-bottom:8%}
 }.neuf .content .spacingbox25{margin-bottom:2em}
 .neuf .content h1{text-align:center;margin-top:2%;display:none}
 .neuf .content h3{background:center top no-repeat;margin:0;padding-top:170px}
