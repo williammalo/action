@@ -40,8 +40,9 @@ nav a.half{width:50%}
 footer{text-align:center;width:100%;z-index:10;overflow:hidden;margin:0;}
 footer .copy{font-size:.62em}
 .textps .content{white-space:nowrap;overflow:hidden;line-height:0;}
-.textps .content #textbox,.textps .content .ibox{display:inline-block;height:768px;vertical-align:top}
-.textps .content #textbox{width:60%;padding:4em;border-left:solid 1px #999;border-right:solid 1px #999;}
+.textps .content #textbox,.textps .content .ibox{display:inline-block;height:768px;vertical-align:top;}
+@media screen and (min-width:1344px){.textps .content #textbox,.textps .content .ibox{height:45em}
+}.textps .content #textbox{width:60%;padding:4em;border-left:solid 1px #999;border-right:solid 1px #999;}
 .textps .content #textbox article{white-space:normal;line-height:2em}
 .textps .content #textbox h1{margin-bottom:.5em;text-shadow:0 1px 0 #fff}
 .textps .content .ibox{width:20%;max-width:576px}
