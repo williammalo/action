@@ -1,6 +1,6 @@
 *{margin:0;padding:0;position:relative;text-rendering:optimizeLegibility;line-height:1.62em;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
-html,input{font:17px "Helvetica Neue",Helvetica,Arial,sans-serif;color:#333;color:rgba(0,0,0,0.8);font-weight:200;}
-@media screen and (min-width:1344px){html,input{font-size:1.265vw}
+html,input,textarea{font:17px "Helvetica Neue",Helvetica,Arial,sans-serif;color:#333;color:rgba(0,0,0,0.8);font-weight:200;}
+@media screen and (min-width:1344px){html,input,textarea{font-size:1.265vw}
 }p+p{margin-top:1.62em}
 h1{font-size:2.5em}
 ul{margin:1em}
