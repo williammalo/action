@@ -70,15 +70,15 @@ footer .copy{font-size:.62em}
 .contact .content address,.contact .content .detail,.contact .content form,.contact .content #map{display:inline-block;vertical-align:middle;margin-bottom:2em}
 .contact .content address,.contact .content .detail,.contact .content form{text-align:left}
 .contact .content address{line-height:2em;width:100%}
-.contact .content #map{height:340px;padding:0;backgound:none;width:100%;}
+.contact .content #map{height:20em;padding:0;backgound:none;width:100%;}
 .contact .content #map iframe{height:100%;width:100%;border:none;top:0;left:0}
-.contact .content .detail{margin-left:auto;margin-right:auto;width:90%;max-width:1100px;line-height:2em;}
+.contact .content .detail{margin-left:auto;margin-right:auto;width:90%;max-width:65em;line-height:2em;}
 .contact .content .detail h3{padding:1em 0}
 @media screen and (max-width:970px){.contact .content .detail{width:100%}
 }@media screen and (max-width:900px){.contact .content .detail{width:26em;max-width:100%}
 }.contact .content form{max-width:100%;}
 .contact .content form label{width:5em;display:inline-block;vertical-align:middle}
-.contact .content textarea{width:400px;max-width:100%;height:200px;resize:none;margin:10px 0}
+.contact .content textarea{width:24em;max-width:100%;height:12em;resize:none;margin:10px 0}
 .contact .content .detail .col1,.contact .content .detail .col2{width:50%;display:inline-block;vertical-align:top;}
 @media screen and (max-width: 900px){.contact .content .detail .col1,.contact .content .detail .col2{width:100%}
 }.contact .content .detail p{margin:0}
