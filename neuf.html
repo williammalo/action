@@ -50,7 +50,7 @@ if(Modernizr.csspositionsticky){
 foo();
 onscroll=foo;
 
-addEventListener("resize",function(){document.documentElement.style.fontSize="1.265vw"})
+addEventListener("resize",function(){document.documentElement.style.fontSize=""})
 
 //FastClick: polyfill to remove click delays on browsers with touch UIs. version 0.6.11
 function FastClick(a){var c,b=this;this.trackingClick=!1;this.trackingClickStart=0;this.targetElement=null;this.lastTouchIdentifier=this.touchStartY=this.touchStartX=0;this.touchBoundary=10;this.layer=a;if(!a||!a.nodeType)throw new TypeError("Layer must be a document node");this.onClick=function(){return FastClick.prototype.onClick.apply(b,arguments)};this.onMouse=function(){return FastClick.prototype.onMouse.apply(b,arguments)};this.onTouchStart=function(){return FastClick.prototype.onTouchStart.apply(b,
