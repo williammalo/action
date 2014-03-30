@@ -35,7 +35,7 @@ header{height:196px;background:url("http://farm9.staticflickr.com/8515/847531308
 }@media screen and (max-width:500px){nav a{width:33.33%;padding:5px 25px}
 nav a.half{width:50%}
 }nav a:hover,nav a:focus{text-decoration:none;-webkit-box-shadow:-1px 0 0 #0068bc,1px 0 0 #1a82d6,inset 0 3px 25px -5px rgba(0,0,0,0.5);box-shadow:-1px 0 0 #0068bc,1px 0 0 #1a82d6,inset 0 3px 25px -5px rgba(0,0,0,0.5);border-color:#0068bc}
-.index   >nav:not(:hover) a:nth-child(1),.neuf    >nav:not(:hover) a:nth-child(2),.usage   >nav:not(:hover) a:nth-child(3),.location>nav:not(:hover) a:nth-child(4),.pieces  >nav:not(:hover) a:nth-child(5),.service >nav:not(:hover) a:nth-child(6),.contact >nav:not(:hover) a:nth-child(7){-webkit-box-shadow:-1px 0 0 #0068bc,1px 0 0 #1a82d6,inset 0 3px 25px -5px rgba(0,0,0,0.5);box-shadow:-1px 0 0 #0068bc,1px 0 0 #1a82d6,inset 0 3px 25px -5px rgba(0,0,0,0.5);border-color:#0068bc}
+.index   >nav:not(:hover):not(:focus) a:nth-child(1),.neuf    >nav:not(:hover):not(:focus) a:nth-child(2),.usage   >nav:not(:hover):not(:focus) a:nth-child(3),.location>nav:not(:hover):not(:focus) a:nth-child(4),.pieces  >nav:not(:hover):not(:focus) a:nth-child(5),.service >nav:not(:hover):not(:focus) a:nth-child(6),.contact >nav:not(:hover):not(:focus) a:nth-child(7){-webkit-box-shadow:-1px 0 0 #0068bc,1px 0 0 #1a82d6,inset 0 3px 25px -5px rgba(0,0,0,0.5);box-shadow:-1px 0 0 #0068bc,1px 0 0 #1a82d6,inset 0 3px 25px -5px rgba(0,0,0,0.5);border-color:#0068bc}
 .fixed{position:fixed;top:0}
 footer{text-align:center;width:100%;z-index:10;overflow:hidden;margin:0;}
 footer .copy{font-size:.62em}
