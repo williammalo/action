@@ -1,30 +1,100 @@
-.contact .content{padding:2%;text-align:center;}
-.contact .content address,.contact .content #map,.contact .content .detail,.contact .content form,.contact .content input[type=submit]{box-shadow:0 0 5px rgba(0,0,0,0.2)}
-.contact .content address,.contact .content .detail,.contact .content form,.contact .content #map{display:inline-block;vertical-align:middle}
-.contact .content address,.contact .content .detail,.contact .content form{padding:30px;background:url("bgw.gif");}
-@media retina{.contact .content address,.contact .content .detail,.contact .content form{background-size:61px 61px}
-}.contact .content address,.contact .content #map{width:42%;margin-bottom:2%;}
-@media screen and (max-width:850px){.contact .content address,.contact .content #map{width:98%;margin-left:0;margin-right:0}
-}.contact .content address{margin-right:1%;white-space:pre-wrap;text-align:left;font-size:16px}
-.contact .content #map{height:410px;margin-left:1%;}
-.contact .content #map iframe{height:100%;width:100%;border:none}
-.contact .content .detail{margin:0 auto;margin-bottom:2%;width:90%;max-width:1100px;text-align:left;line-height:2em;}
-@media screen and (max-width:850px){.contact .content .detail{max-width:440px}
-}@media screen and (max-width:1100px){.contact .content .detail{width:96%}
-}.contact .content .detail h3{padding:1em 0}
-.contact .content form{max-width:100%;}
-.contact .content form label{width:80px;display:inline-block;vertical-align:middle}
-.contact .content .fields,.contact .content .message{display:inline-block;vertical-align:top;text-shadow:0 1px 0 rgba(255,255,255,0.4)}
-.contact .content textarea{width:485px;margin-left:30px;max-width:100%;height:300px}
-.contact .content .detail .cn,.contact .content .detail .otherc{text-indent:1em}
-.contact .content .detail .cc,.contact .content .detail .cn,.contact .content .detail .ct,.contact .content .detail .te,.contact .content .detail .ce{display:inline-block;vertical-align:top}
-.contact .content .detail .cc{display:none}
-.contact .content .detail .cn{min-width:280px}
-.contact .content .detail .ct{width:270px}
-.contact .content .detail .te{width:100px}
-.contact .content .detail .ce{width:300px}
-.contact .content .detail .otherc>a{margin-left:1em}
-@media screen and (max-width:850px){.contact .content .detail .ct{display:block}
-.contact .content .detail .cc{display:inline-block}
-.contact .content .detail .cn,.contact .content .detail .ce{display:none}
+.contact .content {
+  padding-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 0;
+  text-align: center;
+}
+.contact .content .detail,
+.contact .content form,
+.contact .content #map,
+.contact .content .main-address {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 2em;
+}
+.contact .content .main-address,
+.contact .content .detail,
+.contact .content form {
+  text-align: left;
+}
+.contact .content #map {
+  height: 16.8em;
+  padding: 0;
+  backgound: none;
+  width: 100%;
+}
+.contact .content #map iframe {
+  height: 100%;
+  width: 100%;
+  border: none;
+  top: 0;
+  left: 0;
+}
+.contact .content .detail {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 52em;
+  line-height: 2em;
+}
+.contact .content .detail h3 {
+  padding: 1em 0;
+}
+@media screen and (max-width: 970px) {
+  .contact .content .detail {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .contact .content .detail {
+    width: 26em;
+    max-width: 100%;
+  }
+}
+.contact .content form {
+  max-width: 100%;
+}
+.contact .content form label {
+  width: 5em;
+  display: inline-block;
+  vertical-align: middle;
+}
+.contact .content textarea {
+  width: 24em;
+  max-width: 100%;
+  height: 12em;
+  resize: none;
+  margin: 10px 0;
+}
+.contact .content .detail {
+  line-height: 1.6em;
+}
+.contact .content .detail h2 {
+  bottom: 0.1em;
+}
+.contact .content .detail .col1,
+.contact .content .detail .col2 {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+@media screen and (max-width: 900px) {
+  .contact .content .detail .col1,
+  .contact .content .detail .col2 {
+    width: 100%;
+  }
+}
+.contact .content .detail p {
+  margin: 0;
+}
+.contact .content .detail address {
+  padding: 0;
+  font-style: normal;
+  display: inline-block;
+  margin-bottom: 1.6em;
+  width: 100%;
+}
+.contact .content .detail .otherc a {
+  margin-left: 1em;
 }

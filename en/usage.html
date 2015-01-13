@@ -1,46 +1,48 @@
 <!DOCTYPE html><html lang="en"><meta charset="utf-8"><title>ACTION UTILITY</title><meta http-equiv="X-UA-Compatible" content="chrome=1">
 <meta name="viewport" content="width=device-width">
-<base href="http://actionqc.com"><!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script><script>var $buoop = {vs:{i:8,f:6,o:11,s:4,n:9}} 
-$buoop.ol = window.onload; 
-window.onload=function(){ 
-try {if ($buoop.ol) $buoop.ol();}catch (e) {} 
-var e = document.createElement("script"); 
-e.setAttribute("type", "text/javascript"); 
-e.setAttribute("src", "http://browser-update.org/update.js"); 
-document.body.appendChild(e); 
-} 
-</script><![endif]--><link rel="stylesheet" href="s.css"><link rel="icon" href="utility.ico"><body class=usage><header><h1>action utility quebec trailers</h1><div id="mobile">Mobile<br>Friendly</div><div id="slogan">The World's Leading Producer of<br>Strong, Light Weight Trailers</div></header><nav><a href="en">Home</a><a href="en/neuf">New</a><a href="en/usage">Used</a><a href="en/location">Rental</a><a href="en/pieces">Parts</a><a href="en/service">Service</a><a href="en/contact" class="half">Contact</a><a href="." class="half">Français</a></nav><div id="blog" class="content"></div><script>var printRss=function(file,template){
+<base href="http://actionqc.com"><!--if lt IE 9<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+script.
+	var $buoop = {vs:{i:8,f:6,o:11,s:4,n:9}} 
+	$buoop.ol = window.onload; 
+	window.onload=function(){ 
+	try {if ($buoop.ol) $buoop.ol();}catch (e) {} 
+	var e = document.createElement("script"); 
+	e.setAttribute("type", "text/javascript"); 
+	e.setAttribute("src", "http://browser-update.org/update.js"); 
+	document.body.appendChild(e); 
+	} 
+--><link rel="stylesheet" href="s.css"><link rel="icon" href="utility.ico"><body class=usage><header><h1>action utility quebec trailers</h1><div id="mobile">Mobile<br>Friendly</div><div id="slogan">The World's Leading Producer of<br>Strong, Light Weight Trailers</div></header><nav><a href="en">Home</a><a href="en/neuf">New</a><a href="en/usage">Used</a><a href="en/location">Rental</a><a href="en/pieces">Parts</a><a href="en/service">Service</a><a href="en/contact" class="half">Contact</a><a href="." class="half">Français</a></nav><div id="blog" class="content"></div><script>var printRss=function(file,template){
 
- var i,txt="",x=new XMLHttpRequest;
- if(window.XDomainRequest)x=new window.XDomainRequest;
- x.open("GET",file,false);
- x.send();
- x=x.responseText
- if (window.DOMParser){
- parser=new DOMParser();
- x=parser.parseFromString(x,"text/xml");
- }
- else{
- var xmlDoc;
- xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
- xmlDoc.async=false;
- xmlDoc.loadXML(x);
- x=xmlDoc;
- }
- 
- x=x.getElementsByTagName("item");
- 
- 
- tmpl=function(){return template.replace(/\{\{([^{}]+)}}/g,function(b,c,d){
-  d=x[i].getElementsByTagName(c)[0].firstChild;
-  d=d?d.nodeValue:"foo";
-  return c=="updated"?d.split("T")[0]:d;
- })};
- 
- for(i=0;i<x.length;i++)txt+=tmpl();
- 
- return txt
+	var i,txt="",x=new XMLHttpRequest;
+	if(window.XDomainRequest)x=new window.XDomainRequest;
+	x.open("GET",file,false);
+	x.send();
+	x=x.responseText
+	if (window.DOMParser){
+	parser=new DOMParser();
+	x=parser.parseFromString(x,"text/xml");
+	}
+	else{
+	var xmlDoc;
+	xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
+	xmlDoc.async=false;
+	xmlDoc.loadXML(x);
+	x=xmlDoc;
+	}
+
+	x=x.getElementsByTagName("item");
+
+
+	tmpl=function(){return template.replace(/\{\{([^{}]+)}}/g,function(b,c,d){
+		d=x[i].getElementsByTagName(c)[0].firstChild;
+		d=d?d.nodeValue:"foo";
+		return c=="updated"?d.split("T")[0]:d;
+	})};
+
+	for(i=0;i<x.length;i++)txt+=tmpl();
+
+	return txt
 };
 (function(){
 var sig="<div style='position:relative;margin-bottom:50px'><img src='img/log25.png' style='position:absolute;top:0;left:-10px;box-shadow:none'><div style='text-align:right'><br><br>Action Utility Quebec Inc.<br>1100 rue Courval<br>Lachine, Qc.<br>H8T 3P5<br>Phone: (514) 633-5377<br>Fax: (514) 633-6488</div></div>"
@@ -66,24 +68,24 @@ var header=document.getElementsByTagName("header")[0];
 var bla="";
 
 var foo=function(){
- if(document.body.scrollTop>196||document.documentElement.scrollTop>196){
-  if(bla!="fixed"){
-   nav.className="fixed"
-   bla="fixed"
-  }
- }else{
-  if(bla!=""){
-   nav.className=""
-   bla=""
-  }
- }
+	if(document.body.scrollTop>196||document.documentElement.scrollTop>196){
+		if(bla!="fixed"){
+			nav.className="fixed"
+			bla="fixed"
+		}
+	}else{
+		if(bla!=""){
+			nav.className=""
+			bla=""
+		}
+	}
 };
 
 if(Modernizr.csspositionsticky){
- foo=function(){};
- nav.style.position="-webkit-sticky"
- nav.style.top="0"
- header.style.marginBottom="0"
+	foo=function(){};
+	nav.style.position="-webkit-sticky"
+	nav.style.top="0"
+	header.style.marginBottom="0"
 };
 
 foo();
