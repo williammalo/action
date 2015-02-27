@@ -573,8 +573,7 @@ footer .copy {
 .box {
   -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.15);
   box-shadow: 0px 0px 5px rgba(0,0,0,0.15);
-  background-color: #fff;
-  background-image: url("bgw.gif");
+  background-color: #f0f2ef;
   padding: 2em;
 }
 @media only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
@@ -585,8 +584,7 @@ footer .copy {
   }
 }
 .graybox {
-  background-color: #ddd;
-  background-image: url("bg.gif");
+  background-color: #f0f2ef;
   text-shadow: 0px 1px 1px rgba(255,255,255,0.5);
 }
 .spacingbox {
